@@ -1,3 +1,10 @@
+html, body{
+
+    width:100%;
+    overflow-x:hidden;
+
+}
+
 *{
     margin:0;
     padding:0;
@@ -84,13 +91,18 @@ nav a:hover{
 
     display:flex;
     align-items:center;
+    overflow:hidden;
 
     padding-left:180px;
     padding-right:80px;
 
     position:relative;
 }
+.hero::before{
 
+    right:0;
+    transform:translateX(40%);
+}
 .hero-content{
     max-width:900px;
 }
@@ -1151,19 +1163,26 @@ footer{
 
     /* ---------- Hero ---------- */
 
-    .hero{
+     .hero{
 
-        min-height:auto;
+        padding:90px 25px;
 
-        padding:80px 25px;
+        justify-content:center;
 
     }
 
     .hero-content{
 
-        max-width:100%;
+        padding:0;
+
+        max-width:650px;
+
+        margin:auto;
+
+        text-align:center;
 
     }
+
 
     .hero h1{
 
@@ -1614,4 +1633,25 @@ img{
         height:auto;
 
     }
+}@media(max-width:900px){
+
+    .features-grid{
+
+        display:grid;
+
+        grid-template-columns:1fr !important;
+
+    }
+
+}
+@media(max-width:900px){
+
+    .feature-card{
+
+        width:100%;
+
+        padding:28px;
+
+    }
+
 }
