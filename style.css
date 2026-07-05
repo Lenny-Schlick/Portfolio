@@ -1382,3 +1382,236 @@ img{
 
 }
 }
+/* ===========================================
+   RESPONSIVE PROJEKTSEITEN
+=========================================== */
+
+@media (max-width: 900px){
+
+    /* Hero */
+
+    .project-hero{
+
+        padding:100px 25px 70px;
+
+    }
+
+    .project-hero h1{
+
+        font-size:46px;
+
+        line-height:1.15;
+
+        letter-spacing:-1px;
+
+    }
+
+    .project-hero p{
+
+        font-size:18px;
+
+    }
+
+    /* Statistiken */
+
+    .stats{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:18px;
+
+        padding:0 25px 80px;
+
+    }
+
+    .stat{
+
+        padding:25px;
+
+    }
+
+    .stat h3{
+
+        font-size:30px;
+
+    }
+
+    /* Feature Sections */
+
+    .feature-section{
+
+        grid-template-columns:1fr;
+
+        gap:35px;
+
+        padding:80px 25px;
+
+    }
+
+    .reverse{
+
+        direction:ltr;
+
+    }
+
+    .image-content{
+
+        order:1;
+
+    }
+
+    .text-content{
+
+        order:2;
+
+    }
+
+    .image-content img{
+
+        width:100%;
+
+        border-radius:20px;
+
+    }
+
+    .text-content h2{
+
+        font-size:34px;
+
+    }
+
+    .text-content p{
+
+        font-size:17px;
+
+        line-height:1.8;
+
+    }
+
+    /* Showcase */
+
+    .showcase{
+
+        padding:90px 25px;
+
+    }
+
+    .showcase-header h2{
+
+        font-size:40px;
+
+    }
+
+    .showcase-header span{
+
+        font-size:18px;
+
+    }
+
+    .showcase-row{
+
+        grid-template-columns:1fr;
+
+        gap:30px;
+
+    }
+
+    /* Karten */
+
+    .showcase-card{
+
+        padding:18px;
+
+    }
+
+    .showcase-card h3{
+
+        font-size:24px;
+
+    }
+
+    .showcase-card p{
+
+        font-size:16px;
+
+    }
+
+    /* Video */
+
+    .showcase-video video{
+
+        width:100%;
+
+        height:auto;
+
+        display:block;
+
+        border-radius:20px;
+
+    }
+
+    /* Features */
+
+    .features-grid{
+
+        grid-template-columns:1fr;
+
+        padding:80px 25px;
+
+    }
+
+    .feature-card{
+
+        padding:28px;
+
+    }
+
+    /* Tech Stack */
+
+    .tech-section{
+
+        padding:100px 25px;
+
+    }
+
+    .tech-section h2{
+
+        font-size:38px;
+
+    }
+
+    .tech-stack{
+
+        justify-content:center;
+
+    }
+
+    /* Ergebnis */
+
+    .result-section{
+
+        padding:80px 25px 120px;
+
+    }
+
+    .result-section h2{
+
+        font-size:38px;
+
+    }
+
+    .result-section p{
+
+        font-size:18px;
+
+    }
+    .project-image img,
+    .image-content img,
+    .showcase-image img{
+
+        max-width:100%;
+
+        height:auto;
+
+    }
+}
