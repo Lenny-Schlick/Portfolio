@@ -1386,13 +1386,7 @@ footer{
         gap:18px;
 
     }
-    .showcase-video video{
 
-    width:100%;
-
-    height:auto;
-
-}
 img{
 
     max-width:100%;
@@ -1557,15 +1551,22 @@ img{
 
     /* Video */
 
-    .showcase-video video{
+    .showcase-video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 28px;
+        overflow: hidden;
+        position: relative;
+        height: 25vh;
 
-        width:100%;
+    }
 
-        height:100%;
-
-        display:block;
-
-        border-radius:20px;
+    .showcase-video video {
+        width: 100%;
+        height: auto;
+        display: block;
 
     }
 
