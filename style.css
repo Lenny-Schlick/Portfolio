@@ -1036,6 +1036,7 @@ nav a:hover{
         0 25px 70px rgba(0, 0, 0, 0.291);
 
     position:relative;
+
 }
 .showcase-video video{
 
@@ -1559,7 +1560,7 @@ img{
         border-radius: 28px;
         overflow: hidden;
         position: relative;
-        height: 25vh;
+        height: 80%;
 
     }
 
@@ -1582,12 +1583,19 @@ img{
     /* feature */
     .feature-card{
 
+        width:100%;
+        min-width:0;
+
         padding:28px;
+
+        box-sizing:border-box;
 
     }
 
     /* Tech Stack */
-
+    .feature-card.long-title h3{
+        font-size:26px;
+        }
     .tech-section{
 
         padding:100px 25px;
@@ -1641,17 +1649,6 @@ img{
         display:grid;
 
         grid-template-columns:1fr !important;
-
-    }
-
-}
-@media(max-width:900px){
-
-    .feature-card{
-
-        width:95%;
-
-        padding:28px;
 
     }
 
